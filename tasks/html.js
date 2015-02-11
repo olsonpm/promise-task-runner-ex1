@@ -28,7 +28,7 @@ var copyHtml = new PromiseTask()
             .pipe(gulp.dest('dev'));
     });
 
-ptc.addTasks(copyHtml);
+ptc.addTask(copyHtml);
 
 
 //---------//
